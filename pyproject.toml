@@ -32,7 +32,7 @@ Issues = "https://github.com/unknown/pycalc/issues"
 Source = "https://github.com/unknown/pycalc"
 
 [project.scripts]
-pycalc = "pycalc.__main__:main"
+pycalc = "pycalc.main:main"
 
 [tool.hatch.version]
 path = "pycalc/__about__.py"
