@@ -10,7 +10,5 @@ class operations:
         self.result : int
         
     def sum(self) -> int:
-        self.num1 = int(input("First Number : "))
-        self.num2 = int(input("Second Number : "))
         self.result = self.num1 + self.num2
         return self.result
